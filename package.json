@@ -1,0 +1,16 @@
+{
+	"name": "@trustami/trustami-ai",
+	"version": "1.0.0",
+	"description": "A connector for the Trustami.AI API.",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/trustami/ai-connector.js.git"
+	},
+	"author": "trustami",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/trustami/ai-connector.js/issues"
+	},
+	"homepage": "https://github.com/trustami/ai-connector.js#readme"
+}
