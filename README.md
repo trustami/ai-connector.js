@@ -13,7 +13,7 @@ npm i trustami-ai
 ```javascript
 import { detectLanguage } from "trustami-ai";
 
-const result = detectLanguage("YOUR_TOKEN_HERE", "This is a test text. It is used to test the Trustami.AI API.");
+const result = await detectLanguage("YOUR_TOKEN_HERE", "This is a test text. It is used to test the Trustami.AI API.");
 
-console.log(`The text language is ${result.language}.`);
+console.log(`The text language is "${result.language}".`); // The text language is "en".
 ```
