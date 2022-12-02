@@ -11,7 +11,7 @@ npm i trustami-ai
 ### Usage
 
 ```javascript
-import { detectLanguage } from "trustami-ai";
+import { detectLanguage, detectSentiment, summarize } from "trustami-ai";
 
 const result = await detectLanguage("YOUR_TOKEN_HERE", "This is a test text. It is used to test the Trustami.AI API.");
 
