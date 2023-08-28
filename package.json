@@ -1,6 +1,6 @@
 {
 	"name": "trustami-ai",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A connector for the Trustami.AI API.",
 	"type": "module",
 	"repository": {
@@ -20,6 +20,10 @@
 		"trustami",
 		"summarize",
 		"sentiment",
-		"language"
+		"language",
+		"keywords",
+		"named entities",
+		"entities",
+		"tokenize"
 	]
 }
